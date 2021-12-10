@@ -17,20 +17,24 @@
   border-top: 1px #f1f1f1 doted;
 }
 
+* {box-sizing:border-box}
+
+
 .fondotr{
   background-image: url(/recursos/images/Contacto_03.png);
   background-repeat: no-repeat; 
   background-position: top right; 
-  height: 800px;
+ 
 
 
 }
 
+
 .fondotl{
-  background-image: url(/recursos/images/detpro.png);
+  background-image: url(/recursos/images/mercaBella_22.png);
   background-repeat: no-repeat; 
   background-position: top left; 
-  height: 800px;
+  
 
 
 }
@@ -173,8 +177,9 @@ img:last-child {
   transition: opacity 500ms linear 0s
 }
 
+/*  Aquí se le mueve al lugar de donde sale la animación*/
 .category:hover .frproductinner.innerposition {
-  bottom: 5.85em;
+  bottom: 7.2em;
   opacity: 75%;
 
 }
