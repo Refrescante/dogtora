@@ -40,6 +40,23 @@
 }
 
 
+
+.fondoa{
+background-color: #ffdc04;
+
+}
+
+.ale{
+font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* El separador con la flor en el centro */
 .sep {
   display: flex;
